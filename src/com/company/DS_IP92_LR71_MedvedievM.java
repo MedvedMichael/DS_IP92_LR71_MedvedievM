@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class DS_IP92_LR71_MedvedievM {
 
     public static void main(String[] args) throws IOException {
-        UndirectedGraph graph = new UndirectedGraph(new File("inputs/input.txt"));
+        UndirectedGraph graph = new UndirectedGraph(new File("inputs/input2.txt"));
         Scanner scanner = new Scanner(System.in);
         System.out.print("Encode(1) or decode(2): ");
         int choice = Integer.parseInt(scanner.nextLine());
